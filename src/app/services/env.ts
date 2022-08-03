@@ -1,6 +1,6 @@
 export const env = {
   prod: {
-    api: 'https://api.daac.asf.alaska.edu',
+    api: 'http://127.0.0.1:8080',
     auth: 'https://auth.asf.alaska.edu',
     urs: 'https://urs.earthdata.nasa.gov',
     urs_client_id: 'BO_n7nTIlMljdvU6kRRB3g',
@@ -20,5 +20,5 @@ export const env = {
     unzip: 'https://unzip.asf.alaska.edu',
     bulk_download: 'https://bulk-download.asf.alaska.edu',
   },
-  defaultEnv: 'test'
+  defaultEnv: 'prod'
 };

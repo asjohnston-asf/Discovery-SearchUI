@@ -5,6 +5,7 @@ export * from './jers_1';
 export * from './radarsat_1';
 export * from './seasat';
 export * from './sentinel-1';
+export * from './s1_slc_bursts';
 export * from './smap';
 export * from './uavsar';
 export * from './beta';

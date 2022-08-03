@@ -216,7 +216,7 @@ export class SceneDetailComponent implements OnInit, OnDestroy {
 
     if (this.dataset.id === models.sentinel_1.id) {
       return this.selectedProducts.filter(
-          product => product.metadata.productType === 'SLC'
+          product => product.metadata.productType === 'S1_SLC_BURSTS'
       )[0].name;
     } else {
       return this.scene.name;
@@ -254,7 +254,7 @@ export class SceneDetailComponent implements OnInit, OnDestroy {
     } else {
       return this.selectedProducts
         .map(product => product.metadata.productType)
-        .filter(productType => productType === 'SLC')
+        .filter(productType => productType === 'S1_SLC_BURSTS')
         .length > 0;
     }
   }
